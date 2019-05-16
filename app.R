@@ -39,3 +39,7 @@ server <- function(input, output) {
 # Run the application 
 shinyApp(ui = ui, server = server)
 
+
+library(shiny)     
+runGitHub("myApp_tobedeleted", "WillyGoodwill")  
+
